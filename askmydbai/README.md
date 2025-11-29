@@ -186,8 +186,3 @@ Contributions welcome — please open issues or PRs in the repository. Check the
 - Inspired by the need to democratize data access for non-technical users
 
 ---
-
-If you want, I can:
-- Add a Getting-Started script (docker-compose) to spin up a test MySQL, backend, and frontend.
-- Draft an .env.example file and CI checks for safety rules.
-Tell me which of these you'd like next and I’ll create the files and updates for you.
