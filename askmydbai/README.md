@@ -1,5 +1,7 @@
 # AskMyDB AI - Talk to your Database
 
+
+
 AskMyDB AI (a.k.a. AskMyDB AI) is an intelligent database assistant that lets users ask questions in plain English and get fast, safe responses from a MySQL database — without writing SQL. It’s built to empower business analysts, product managers, and non-technical users to explore and analyze structured data quickly, while providing developers with a secure, production-ready integration of GenAI and data access.
 
 This README explains what the project does, how it works, how to run it locally, and important security considerations.
