@@ -102,7 +102,7 @@ function App() {
       <div className="pointer-events-none fixed inset-x-0 -top-40 mx-auto h-80 w-80 rounded-full bg-green-500/10 blur-3xl" />
 
       {/* Main Container */}
-      <div className="w-full max-w-6xl relative">
+      <div className="w-full max-w-9xl px-10 relative">
         {/* Header */}
         <header className="mb-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
@@ -138,7 +138,7 @@ function App() {
         {/* Main Content */}
         <main className="flex flex-col lg:flex-row gap-5 lg:gap-6">
           {/* LEFT: Connection + Prompt */}
-          <section className="w-full lg:w-2/3">
+          <section className="w-full lg:w-1/2">
             <div className="relative rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900/70 via-black/70 to-slate-950/80 shadow-[0_0_40px_rgba(0,0,0,0.8)] overflow-hidden">
               {/* Subtle border glow */}
               <div className="pointer-events-none absolute inset-0 rounded-2xl border border-emerald-500/10" />
@@ -279,7 +279,7 @@ function App() {
           </section>
 
           {/* RIGHT: History + Results */}
-          <section className="w-full lg:w-1/3 flex flex-col gap-4 lg:gap-5">
+          <section className="w-full lg:w-1/2 flex flex-col gap-4 lg:gap-5">
             {/* History */}
             <div className="rounded-2xl border border-white/10 bg-slate-900/70 backdrop-blur-md p-4 shadow-[0_0_30px_rgba(0,0,0,0.7)] h-56 overflow-y-auto">
               <div className="flex items-center justify-between mb-2">
