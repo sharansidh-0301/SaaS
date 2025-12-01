@@ -224,7 +224,7 @@ function App() {
                         value={connection.database}
                         onChange={handleConnectionChange}
                         className="w-full bg-black/70 border border-gray-800/80 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-emerald-400/80 focus:border-emerald-400/80 placeholder:text-gray-600"
-                        placeholder="talktodb"
+                        placeholder="Enter your Database Name"
                       />
                     </div>
                   </div>
