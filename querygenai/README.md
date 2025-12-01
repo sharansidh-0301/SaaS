@@ -1,4 +1,4 @@
-# AskMyDB AI - Talk to your Database
+# QUERY GEN AI - Talk to your Database
 
 <img width="1523" height="969" alt="Screenshot 2025-11-30 152828" src="https://github.com/user-attachments/assets/494be08a-63b0-42b6-8b01-3f2268174cf2" />
 
@@ -71,12 +71,12 @@ Prerequisites:
 1) Clone repository (if not already):
    ```bash
    git clone https://github.com/sharansidh-0301/SaaS.git
-   cd SaaS/askmydbai
+   cd SaaS/querygenai
    ```
 
 2) Backend — create a virtual environment and install:
    ```bash
-   cd askmydbai/backend
+   cd querygenai/backend
    python -m venv .venv
    source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
    pip install -r requirements.txt
@@ -114,14 +114,14 @@ Important:
 
 Backend:
 ```bash
-cd askmydbai/backend
+cd querygenai/backend
 source .venv/bin/activate
 uvicorn app.main:app --reload --port 8000
 ```
 
 Frontend:
 ```bash
-cd askmydbai/frontend
+cd querygenai/frontend
 npm run dev
 # or: npm start (depends on package.json)
 ```

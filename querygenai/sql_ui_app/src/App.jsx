@@ -111,7 +111,7 @@ function App() {
               GenAI · SQL Assistant
             </div>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-              AskMyDB <span className="text-emerald-400">AI</span>
+              QueryGen <span className="text-emerald-400">AI</span>
             </h1>
             <p className="text-gray-400 text-sm md:text-base mt-1">
               Talk to your MySQL database using natural language. Generate safe,
